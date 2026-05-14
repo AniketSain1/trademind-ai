@@ -18,7 +18,7 @@
   "author": "Aniket Saini",
   "license": "ISC",
   "engines": {
-    "node": ">=18"
+    "node": "20.x"
   },
   "dependencies": {
     "@prisma/client": "^5.22.0",
