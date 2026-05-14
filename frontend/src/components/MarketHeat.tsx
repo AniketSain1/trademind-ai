@@ -20,8 +20,6 @@ const MarketHeat = memo(
         // MEMOIZED MARKET DATA
         // ==============================
         const {
-            bullish,
-            bearish,
             bullishPercent,
             bearishPercent,
             mood
