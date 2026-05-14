@@ -73,8 +73,6 @@ const MarketHeat = memo(
                         : "Neutral Market";
 
             return {
-                bullish,
-                bearish,
                 bullishPercent,
                 bearishPercent,
                 mood
