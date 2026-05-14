@@ -28,32 +28,32 @@ const MarketHeat = memo(
             // ==============================
             // MARKET PRESSURE
             // ==============================
-            const bullish =
+            const bullishCount =
                 history.filter(
                     (item) =>
                         Number(item.change) > 0
                 ).length;
 
-            const bearish =
+            const bearishCount =
                 history.filter(
                     (item) =>
                         Number(item.change) < 0
                 ).length;
 
             const total =
-                bullish + bearish;
+                bullishCount + bearishCount;
 
             // ==============================
             // PERCENTAGES
             // ==============================
             const bullishPercent =
                 total > 0
-                    ? (bullish / total) * 100
+                    ? (bullishCount / total) * 100
                     : 50;
 
             const bearishPercent =
                 total > 0
-                    ? (bearish / total) * 100
+                    ? (bearishCount / total) * 100
                     : 50;
 
             // ==============================
