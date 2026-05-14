@@ -1,0 +1,37 @@
+{
+  "name": "trademind-backend",
+  "version": "1.0.0",
+  "description": "Backend API for TradeMind - Trading Intelligence System",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "trademind",
+    "trading",
+    "stocks",
+    "api",
+    "backend"
+  ],
+  "author": "Aniket Saini",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "axios": "^1.16.0",
+    "cors": "^2.8.6",
+    "debug": "^4.4.3",
+    "dotenv": "^17.4.2",
+    "es-object-atoms": "^1.1.1",
+    "express": "^4.22.1",
+    "groq-sdk": "^1.2.0",
+    "prisma": "^5.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
