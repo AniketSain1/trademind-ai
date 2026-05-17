@@ -19,7 +19,7 @@ The project evolved from a simple stock dashboard into a cloud-deployed SaaS-sty
 ## Frontend
 
  
-https://YOUR_VERCEL_URL.vercel.app
+https://trademind-frontend-fni3lugps-aniket-sainis-projects-98844e97.vercel.app/
  
 
 ## Backend API
